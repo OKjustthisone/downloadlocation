@@ -1,0 +1,11 @@
+{
+  "name": "locationdl",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome extension that routes downloads into subfolders using domain, filename and extension rules.",
+  "scripts": {
+    "test": "node --test tests/",
+    "icons": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/make-icons.ps1"
+  }
+}
